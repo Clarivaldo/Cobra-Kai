@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(fundo3.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .carousel-item>img {
+
+            height: 50rem;
+        }
+
+        .carousel {
+            margin-bottom: 4rem;
+        }
+
+        .featurette-divider {
+            margin: 5rem 0;
+        }
+
+        .mb-0 {
+            font-weight: bold;
+        }
+
+        .card-body {
+            height: 300px;
+            overflow: hidden;
+        }
+
+        .card:hover .card-body {
+            height: 600px;
+            transition: 2s;
+        }
+
+        .d-block {
+            object-fit: contain;
+        }
+
+        p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        footer{
+            text-align: center;
+            color: white;
+            bottom: 0;
+            position: fixed;
+            width: 90%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+    </nav>
+
+    <!--Carrosel de fotos-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="Fp3..jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="f2p3.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="f3p3.jpeg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="fp4.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Fp5.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="fp6.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <hr>
+    <!--Personagens-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Daniel Larusso</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Ralph Macchio</cite></footer>
+                        <p>Ralph George Macchio Jr. (Huntington, 4 de novembro de 1961) é um ator norte-americano de
+                            origem italiana, conhecido pelo seu papel como Daniel LaRusso em Karate Kid - A Hora da
+                            Verdade (1984), Karate Kid 2 - A Hora da Verdade Continua (1986) e Karate Kid 3 - O Desafio
+                            Final (1989) em que era acompanhado por Pat Morita (Sr. Miyagi), que era seu treinador e
+                            melhor amigo. Depois da trilogia, Ralph estrelou ainda como papel de coadjuvante
+                            interpretando ainda Daniel Larusso na série Cobra Kai. Outros papéis de destaque dele
+                            incluem Johnny Cade em The Outsiders, Eugene Martone em A Encruzilhada e Billy Gambini em
+                            Meu Primo Vinny.</p>
+
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p2.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Johnny Lawrence</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Wilian Zabka</cite></footer>
+                        <p> William Michael "Billy" Zabka (Nova Iorque, 20 de outubro de 1965) é um ator, roteirista e
+                            produtor norte-americano de origem tcheca. Ficou mundialmente conhecido pelo personagem de
+                            Johnny Lawrence, nos filmes The Karate Kid e The Karate Kid Part II.
+
+                            Em 2017, voltou a atuar no papel de Johnny Lawrence no revival produzido pela Youtube Red,
+                            da
+                            série Cobra Kai, que se passa 34 anos após o filme.
+
+                            Em 2004, foi indicado a um Oscar da Academia por co-roteirizar e produzir um curta de
+                            ficção,
+                            chamado Most.</p>
+                        </p>
+
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p3.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Miguel Diaz</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Xolo Maridueña</cite></footer>
+                        <p> Ramario Xolo Maridueña(Espanhol: [roˈmaɾjo ˈʃolo maɾiˈðweɲa]; Los Angeles, 9 de junho de
+                            2001) é
+                            um ator americano. O ator se tornou conhecido por protagonizar a série Cobra Kai da Netflix
+                            interpretando Miguel Diaz , Victor Graham na série de TV Parenthood e Jaime Reyes no filme
+                            Besouro Azul.Maridueña nasceu como Ramario Xolo Maridueña em Los Angeles, Califórnia. Ele é
+                            descendente de mexicanos, cubanos e equatorianos. Seu nome vem da divindade Nahuatl, chamada
+                            Xolotl. Ele também é um streamer no Twitch e transmite jogos em seu canal Xolo Crunch.
+
+                        </p>
+
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p4.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Robby Keene</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Tanner Buchanan</cite></footer>
+                        <p>Tanner Buchanan (Ottawa, 8 de dezembro de 1998) é um ator norte-americano.
+                            Ele é mais conhecido por seus papéis como Leo Kirkman no drama político da ABC Designated
+                            Survivor e Robby Keene na série Cobra Kai da Netflix. Ele também é conhecido por seu papel
+                            na série de televisão Game Shakers da Nickelodeon como Mason Kendall.
+
+                            Em 2010, ele fez sua primeira aparição na televisão, interpretando um papel infantil na
+                            série Modern Family. Três anos depois, ele apareceu em Grey's Anatomy, Major Crimes e The
+                            Goldbergs. Ele teve papéis recorrentes em Girl Meets World, Game Shakers e The Fosters. Em
+                            2018, ele começou a interpretar
+                            Robby Keene na série Cobra Kai.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p5.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Eli Moskowitz</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Jacob Bertrand</cite></footer>
+                        <p>Jacob Scott Thomas Bertrand (6 de março de 2000)[1][2] é um ator e dublador estadounidense.
+                            Bertrand começou sua carreira como ator infantil em 2009, com o filme Duress e em
+                            participações em séries de televisão como The Cape e The Middle. Ele é mais conhecido pelo
+                            papel titular na série de 2014 Kirby Buckets do Disney XD, por interpretar a Jack Malloy no
+                            filme The Swap do Disney Channel em 2016[2][3] e pelo personagem regular Eli "Hawk"
+                            Moskowitz na série original por streaming YouTube Premium e Netflix, Cobra Kai.</p>
+
+                    </div>
+                </div>
+
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p6.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Tory Nichols</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Peyton Roi List</cite></footer>
+                        <p>PPeyton Roi List (Miami, 6 de abril de 1998) é uma atriz e cantora norte-americana. Ela é
+                            mais conhecida pelos seus papéis como Emma Ross em Jessie, Tory Nichols em Cobra Kai,
+                            Jessica Bradley em Code Name: The Cleaner, Holly Hills em Diary of a Wimpy Kid: Rodrick
+                            Rules, Mackenzie Smith em The Outcasts e Ellie O'Brien em Swap: A Troca.atualmente na série
+                            School Spirit. Como Maddie.</p>
+
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p7.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Samantha Larusso</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Mary Mouser</cite></footer>
+                        <p>Mary Mouser (Pine Bluff - 9 de maio de 1996) é uma atriz americana. Ela é mais conhecida por
+                            seu papel como Samantha LaRusso na série da Netflix Cobra Kai, e Lacey Fleming na série
+                            da ABC Body of Proof . Ela também assumiu o papel de Karen Grant, filha de Fitz & Mellie em
+                            Scandal na 4ª temporada.
+
+                            Biografia:
+                            Ela tem dois irmãos, Aaron Parker e Laura Ashley, que também estão no ramo de atuação. . Em
+                            2009, ela foi diagnosticada com diabetes tipo 1 .</p>
+
+                    </div>
+                </div>
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p8.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Jonh Kreese</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Martin Kove</cite></footer>
+                        <p>Martin Kove (Nova Iorque, em 6 de março de 1947[1][2]), é um ator e artista marcial
+                            americano, mais conhecido pelo papel de John Kreese no filme The Karate Kid (1984), além de
+                            suas participações nas sequências The Karate Kid II (1986) e The Karate Kid III (1989), e na
+                            série de televisão Cobra Kai (2018–2025). Além de sua carreira no cinema, ele se
+                            especializou em artes marciais, incluindo caratê, kenpo e kendo.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p9.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Terry Silver</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Thomas Ian Griffith</cite>
+                        </footer>
+                        <p>Thomas Ian Griffith (Hartford, Connecticut, 18 de março de 1962) é um ator, produtor e
+                            roteirista norte-americano. Filho da professora de dança Mary Ann e de Thomas Joseph
+                            Griffith. Estudou no College of the Holy Cross, em Worcester, Massachusetts. Ele é faixa
+                            preta em Karatê e Taekwondo. Griffith é casado com a atriz Mary Page Keller e eles têm 2
+                            filhos. Estrelou seu primeiro filme em 1989.</p>
+
+                    </div>
+                </div>
+                <br><br>]
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p10.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Axel Kovačević</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Patrick Luwis</cite></footer>
+                        <p>Patrick Luwis is an American actor known for his roles as Axel Kovačević in the Netflix
+                            series Cobra Kai and as Ivar in Zack Snyder's Rebel Moon franchise. He has appeared in
+                            several prominent television series and films since beginning his acting career in 2017.
+                        </p>
+
+                    </div>
+                </div>
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p11.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Kim Da-Eun</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Alicia Hannah-Kim</cite>
+                        </footer>
+                        <p>Alicia Hannah-Kim was born and raised in Sydney, Australia. In May 2022, she was officially
+                            announced as Kim Da-Eun in Season 5 of the hit Netflix series Cobra Kai. She began acting at
+                            the national youth theatre company ATYP before making her television debut on the critically
+                            acclaimed series White Collar Blue. Hannah-Kim has appeared in other shows such as the HBO
+                            Max series Minx, where she portrayed Wendy Mah. Her other roles were in Freeform's Alone
+                            Together, ABC's Grey's Anatomy, and the Starz series Crush. She is represented by Elevate
+                            Entertainment and Performer's Management.</p>
+
+                    </div>
+                </div>
+                <br><br>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="p12.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <p class="mb-0">Zara Malik</p>
+                        <footer class="blockquote-footer"><cite title="Título da fonte">Rayna Vallandingham</cite>
+                        </footer>
+                        <p>Rayna Vallandingham (born January 18, 2003) is an American martial artist, actress, and
+                            social media influencer.
+
+                            Early life
+                            Vallandingham was born to a mother of Indian origin, and a father of Dutch origin.
+
+                            Martial arts career
+                            She began practicing taekwondo at the age of 2, encouraged by her grandfather, who played an
+                            instrumental role in her early development.[citation needed] By the age of 8, she won her
+                            first American Taekwondo Association world championship, becoming one of the youngest black
+                            belts to achieve this feat. Her achievements are not in World Taekwondo official
+                            championships and her name is not found in Taekwondo Data or any official WT posts. 
+</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <Footer> Copyright © 2025 Cobra Kai - Todos os direitos reservados</Footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
